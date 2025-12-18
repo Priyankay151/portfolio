@@ -607,6 +607,36 @@ body {
     background: var(--bg-secondary);
 }
 
+/* Simple list-based projects */
+.projects-list {
+    max-width: 800px;
+    margin: 3rem auto 0;
+}
+
+.project-item {
+    margin-bottom: 2.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.project-item:last-child {
+    border-bottom: none;
+}
+
+.project-item h3 {
+    font-size: 1.3rem;
+    color: var(--primary-color);
+    margin-bottom: 0.75rem;
+    font-weight: 600;
+}
+
+.project-item p {
+    color: var(--text-light);
+    line-height: 1.7;
+    font-size: 1rem;
+}
+
+/* Legacy grid-based projects (keeping for compatibility) */
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
