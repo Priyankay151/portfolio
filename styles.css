@@ -162,6 +162,13 @@ body {
     align-items: center;
     position: relative;
     z-index: 1;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.hero-text {
+    padding-left: 3rem;
 }
 
 .hero-text h1 {
